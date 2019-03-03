@@ -1,2 +1,420 @@
 /*Ein Template für Websiten, die etwas seriöser aussehen sollen. Heißt statische Schriftarten, zurückhaltende Farbakzente,
 einen etwas eleganteren Look für das etwas anspruchsvollere Web-Publikum.*/
+
+/* This is css classy-template
+Following we deserve an example for a Onepage-Website. 
+For example you can delete unnecessary sections or add some more.
+Furthermore you could adept everything in such a way that it fits to your project.
+*/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	text-align: center;
+}
+section {min-height: 100%;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+h1, h2, h3, a {
+	font-family: Verdana, Helvetica, Arial, sans-serif; /* andere Schrift*/
+	font-weight: 500; /*evtl. dicker*/
+	color: #707274; /*Farbe evtl. dunkler*/
+	text-transform: uppercase; /*evtl. auch alles lowercase?*/
+}
+/*h2, h3, h4, ... andere Farben
+h2{} h3 {} ...
+*/
+h3 {
+	font-size: 30px; /* evtl. größer*/
+	padding-top: 8%;
+	margin-bottom: 5px;
+}
+
+h4, p{
+	font-family: Verdana, Helvetica, Arial, serif; /*andere Schrift als die anderen?*/
+	font-weight: 500; /*evtl dicker?*/
+	color: #707274;
+}
+
+hr{
+	width: 200px; /* evtl. andere Länge*/
+	height: 3px;
+	background-color: #707274;
+	border: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+#logo, li, img, .button, .fa-bars {
+	transition: all 300ms;
+	-webkit-transition: all 300ms; /*Browsersupport*/
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+}
+
+.fa-bars { display: none; }
+
+/* HEADER *****************/
+header {
+	width: 100%;
+	height: 55px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #e1e1e1; /*evtl. auch weiß*/
+	box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1); /* evtl. andere Farbe*/
+	z-index: 1; /*header immer an erster Stelle*/
+}
+
+#logo {
+	width: 65px;
+	float: left;
+	margin: 8.5px 0px 0px 30px;
+}	
+
+#logo:hover {
+	opacity: 0.5;
+}
+
+#logo img {
+	width: 80%;
+}
+
+header nav {
+	float: right;
+	margin: 4px 30px 0px 0px;
+}
+
+header nav ul li {
+	float: left;
+	margin-left: 25px;
+}
+
+header nav ul li a {
+	font-size: 16px;
+}
+
+header nav ul li:hover {
+	padding-top: 5px;
+}
+
+/* HOME ****************/
+
+#home {
+	background: url(../img/landingpage.jpg); /*anderes Bild oder Hintergrund*/
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#home h1 {
+	margin: 240px auto 0 auto;
+	font-size: 50px;
+	color: #FFFFFF; /*andere Farbe*/
+	font-family: Verdana; /*andere Schrift*/
+}
+
+#home h2 {
+	margin: 0 auto 0 auto;
+	font-size: 15px;
+	color: #FFFFFF; /*andere Farbe*/
+	font-family: Verdana; /*andere Schrift*/
+}
+
+#home img {
+	width: 32px;
+	margin-top: 150px;
+	opacity: 0.7;
+}
+
+#home img:hover {
+	opacity: 1;
+}
+
+#home .fa-angle-down {
+	font-size: 80px;
+	margin-top: 150px;
+	opacity: 0.7;
+	color: #FFFFFF;
+}
+
+#home .fa-angle-down:hover {
+	opacity: 1;
+}
+
+/* ABOUT **************/
+#about img{
+	width: 200px;
+}
+
+#about img:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+#about h4{
+	font-size: 20px;
+}
+
+#about p {
+	width: 80%; /*700px*/
+	margin: 0 auto 0 auto;
+}
+
+/* WORK ***************/
+#work {
+	background-color: #000000; /*evtl andere Farbe*/
+}
+
+#projects {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+#projects ul {
+	padding: 0px;
+}
+
+#projects ul li {
+	width: 33,3%; /* evtl andere width*/
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+#projects img {
+	width: 271px; /*andere Größe?*/
+	height: 170px;
+	border-radius: 5px; /*Ecken abrunden*/
+}
+
+#projects img:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.1); /*ander Farbe*/
+}
+
+/* CONTACT ****************/
+form input, textarea{
+	font-family: Verdana;
+	font-size: 15px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid;
+	border-color: #707274;
+	outline-color: #000000;
+}
+
+form input:first-child{ /*nur email wird angesprochen*/
+	margin-top: 10px;
+}
+
+form input {
+	width: 550px; /*552*/
+	height: 25px; /*30px*/
+}
+
+form textarea {
+	width: 550px; /*550*/
+	height: 180px; /*200px*/
+	resize: none; /*vergrößerung ausschalten*/
+}
+
+.input_text {
+	color: #707274;
+	padding-left: 10px;
+}
+
+::-webkit-input-placeholder {color: #999999;} 
+::-moz-placeholder {color: #999999;} 
+::-ms-input-placeholder {color: #999999;} 
+::-moz-placeholder {color: #999999;} 
+
+.button{
+	background-color: #FFFFFF;
+	color: #707274;
+	width: 550px;
+	height: 40px;
+}
+
+.button:hover {
+	background-color: #707274;
+	color: #FFFFFF;
+}
+
+/* FOOTER ************/
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #707274;
+}
+
+footer p {
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+/* MEDIA ************/
+
+/* TABLET **/
+@media screen and (max-width: 1024px) {
+	header {
+		height: auto;
+	}
+
+	#logo {
+		width: 50px; /*andere Größe*/
+		margin-top: 5px;
+	}
+
+	header nav {
+		margin-top: -5px;
+	}
+
+	header nav ul li {
+		font-size: 13px;
+	}
+
+	#home h1 {
+		font-size: 30px;
+		margin-top: 200px;	
+	}
+
+	#home h2 {
+		font-size: 10px;
+	}
+
+	h3 {
+		padding-top: 12%
+		/*margin: 0px;* Abstand entfernen zur anderen section*/
+	}
+
+	#about p {
+		width: 80%;
+	}
+
+	#projects {
+		width: auto;
+	}
+
+	#projects ul li {
+		width: 100%;
+		float: none;
+	}
+
+	#projects ul li:last-child {
+		padding-bottom: 20%;
+	}
+
+	#projects img {
+		width: 55%;
+		height: auto;
+	}
+
+	form input, form textarea {
+		width: 60%;
+	}
+
+	.button {
+		width: 62%;
+	}
+}
+
+/* MOBILE **/
+@media screen and (max-width: 480px) {
+	#logo {
+		width: 50px;
+		margin-left: 30px;
+	}
+
+	header nav {
+		margin: 0px;
+		float: none;
+		/*float: right;
+		margin: 4px 30px 0px 0px;*/
+	}
+
+	.fa-bars {
+		font-size: 17px;
+		display: inline-block;
+		width: 100%;
+		cursor: pointer;
+		text-align: right;
+		float: right;
+		margin: -26px 30px 0px 0px;
+	}
+
+	.fa-bars:hover {
+		opacity: 0.5;
+	}
+	
+	header nav ul {
+		height: 0px;
+		overflow: hidden;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+
+	header nav ul.open {
+		height: auto;
+	}
+	
+	/*Menü durch w3schools*/
+/*	header nav ul {
+		list-style: none;
+		margin:39px 200px 0px 0px;
+		padding: 0;
+		width:20%;
+		background-color: #e1e1e1;
+		height: 98px;
+		position: fixed;
+		overflow: auto;
+		float: right;
+	}
+*/
+
+	header nav ul li {
+		width: 100%;
+		padding: 5px 0px;
+		margin: 0px;
+		font-size: 11px;
+		border-top: 1px solid #707274;
+		float: left;
+	}
+
+	header nav ul li:hover {
+		background-color: #FFFFFF;
+	}
+
+	#home h1 {
+		font-size: 60px;
+		margin-top: 200px;
+	}
+
+	#home h2 {
+		width: 70%
+		height: auto;
+	}
+
+	#projects img {
+		width: 70%;
+		height: auto;
+	}
+
+	form input, form textarea {
+		width: 70%;
+	}
+
+	.button {
+		width: 72%;
+	}
+}
