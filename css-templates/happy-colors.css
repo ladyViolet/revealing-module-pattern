@@ -6,6 +6,11 @@ Following we deserve an example for a Onepage-Website.
 For example you can delete unnecessary sections or add some more.
 Furthermore you could adept everything in such a way that it fits to your project.
 */
+/* This is css happy-color-template
+Following we deserve an example for a Onepage-Website. 
+For example you can delete unnecessary sections or add some more.
+Furthermore you could adept everything in such a way that it fits to your project.
+*/
 
 html, body {
 	margin: 0px;
@@ -173,6 +178,7 @@ header nav ul li:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-o-transform: scale(1.1);
+	transform: rotateY(180deg);
 }
 
 #about h4{
@@ -225,6 +231,7 @@ header nav ul li:hover {
 	-moz-transform: scale(1.1);
 	-o-transform: scale(1.1);
 	box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.1); /*ander Farbe*/
+	transform: rotate(360deg);
 }
 
 /* CONTACT ****************/
@@ -458,3 +465,4 @@ footer p {
 		width: 72%;
 	}
 }
+
