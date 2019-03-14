@@ -101,7 +101,7 @@ header nav ul li:hover {
 /* HOME ****************/
 #home {
 	background-color: #757b7c;
-	/*background: url(../img/landingpage.jpg); */
+	/*background: url(../img/landingpage.jpg); */ /*add your own Landingpage image*/
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
