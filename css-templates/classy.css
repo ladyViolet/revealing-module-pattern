@@ -15,7 +15,7 @@ a {text-decoration: none;}
 li {list-style: none;}
 
 h1, h2, h3, a {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Century, "High Tower Text", "Platino Lino", Helvetica, Verdana, Arial, sans-serif;
 	font-weight: 500; 
 	color: #707274; 
 	text-transform: uppercase; 
@@ -28,7 +28,7 @@ h3 {
 }
 
 h4, p{
-	font-family: Verdana, Helvetica, Arial, serif; 
+	font-family: Century, "High Tower Text", "Platino Lino", Helvetica, Verdana, Arial, serif; 
 	font-weight: 500; 
 	color: #707274;
 }
@@ -101,7 +101,7 @@ header nav ul li:hover {
 /* HOME ****************/
 
 #home {
-	background-color: #989292;
+	background-color: #757b7c;
 	/*background: url(../img/landingpage.jpg); */
 	background-position: center center;
 	background-size: cover;
@@ -112,14 +112,14 @@ header nav ul li:hover {
 	margin: 240px auto 0 auto;
 	font-size: 50px;
 	color: #FFFFFF; 
-	font-family: "High Tower Text", Verdana; 
+	font-family: Century, "High Tower Text", Verdana; 
 }
 
 #home h2 {
 	margin: 0 auto 0 auto;
 	font-size: 15px;
 	color: #FFFFFF; 
-	font-family: "High Tower Text", Verdana; 
+	font-family: Century, "High Tower Text", Verdana; 
 }
 
 #home img {
@@ -201,13 +201,14 @@ header nav ul li:hover {
 
 /* CONTACT ****************/
 form input, textarea{
-	font-family: Verdana;
-	font-size: 15px;
+	font-family: Century, Helvetica, Verdana;
+	font-size: 12px;
 	margin-bottom: 10px;
 	border-radius: 3px;
 	border: 1px solid;
 	border-color: #707274;
 	outline-color: #000000;
+	text-transform: uppercase;
 }
 
 form input:first-child{ 
