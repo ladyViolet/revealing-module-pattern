@@ -15,22 +15,24 @@ a {text-decoration: none;}
 li {list-style: none;}
 
 h1, h2, h3, a {
-	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	font-family: "Courier New", Verdana, Helvetica, Arial, sans-serif; 
 	font-weight: 500; 
 	color: #9f9f9f; 
-	text-transform: uppercase; 
+	text-transform: lowercase; 
 }
 
 h3 {
-	font-size: 30px; 
+	font-size: 40px; 
 	padding-top: 8%;
 	margin-bottom: 5px;
+	text-transform: lowercase;
 }
 
 h4, p{
-	font-family: Verdana, Helvetica, Arial, serif; 
+	font-family: "Courier New", Verdana, Helvetica, Arial, serif; 
 	font-weight: 500; 
 	color: #9f9f9f;
+	text-transform: lowercase;
 }
 
 hr{
@@ -66,9 +68,9 @@ header {
 }
 
 #logo {
-	width: 65px;
+	width: 90px;
 	float: left;
-	margin: 8.5px 0px 0px 30px;
+	margin: 5.5px 0px 0px 30px;
 }	
 
 #logo:hover {
@@ -108,16 +110,15 @@ header nav ul li:hover {
 
 #home h1 {
 	margin: 240px auto 0 auto;
-	font-size: 50px;
+	font-size: 60px;
 	color: #9f9f9f; 
-	font-family: Verdana; 
+	font-weight: 500;
 }
 
 #home h2 {
 	margin: 0 auto 0 auto;
-	font-size: 15px;
+	font-size: 25px;
 	color: #9f9f9f; 
-	font-family: Verdana; 
 }
 
 #home img {
@@ -163,6 +164,7 @@ header nav ul li:hover {
 
 #about h4{
 	font-size: 20px;
+	font-weight: 550;
 }
 
 #about p {
@@ -221,14 +223,14 @@ header nav ul li:hover {
 form input, textarea{
 	background-color: #3e3e3e;
 	color: #9f9f9f;
-	font-family: Verdana;
+	font-family: "Courier New";
 	font-size: 15px;
 	margin-bottom: 10px;
 	border-radius: 3px;
 	border: 1px solid;
 	border-color: #707274;
 	outline-color: #000000;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 form input:first-child{
