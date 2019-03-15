@@ -8,19 +8,59 @@ Furthermore you could adept everything in such a way that it fits to your projec
 	box-sizing: border-box;
 }
 
+.page {
+	opacity: 0.9;
+	/*
+	position: absolute;
+	opacity: 0.9;
+	width: auto;
+	left: 8px;
+	right: 10px;
+	*/
+}
+
 .header {
 	padding: 15px;
 }
 
+.wrapper {
+	overflow: auto;
+	position: relative;
+}
+
+#w1 {
+	height: 90px;
+	color: #0b28ff;
+}
+
+
 .content {
+
 	background-color: #FFFFFF;
-	border-right: 1px solid;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+
+	width: 8.33%;
+	margin: 0;
+	height: 100%;
+	float: left;
+	/*
+	background-color: #FFFFFF;
+	border-right: 1px solid grey;
 	border-color: #000000;
 	border-left: 1px solid;
 	float: left;
 	padding: 15px;
+
+
+	width: 8,33%;
+	margin: 0px;
+	background-color: #0b28ff;
+	background-color: #056eff;
+	*/
 }
 
+/*
 #c1 {
 	width: 8.33%;
 }
