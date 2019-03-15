@@ -171,6 +171,7 @@ header nav ul li:hover {
 #projects {
 	width: 900px;
 	margin: 0 auto 0 auto;
+	padding-bottom: 1px;
 }
 
 #projects ul {
