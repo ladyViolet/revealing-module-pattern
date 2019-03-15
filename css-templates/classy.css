@@ -168,6 +168,14 @@ header nav ul li:hover {
 	background-color: #000000; 
 }
 
+#work h3 {
+	color: #cecece;
+}
+
+#work hr {
+	background-color: #cecece;
+}
+
 #projects {
 	width: 900px;
 	margin: 0 auto 0 auto;
