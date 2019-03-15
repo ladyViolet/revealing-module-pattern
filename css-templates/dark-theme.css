@@ -229,7 +229,7 @@ form input, textarea{
 	border-radius: 3px;
 	border: 1px solid;
 	border-color: #707274;
-	outline-color: #000000;
+	outline-color: #bec0c1;
 	text-transform: lowercase;
 }
 
@@ -250,7 +250,7 @@ form textarea {
 }
 
 .input_text {
-	color: #707274;
+	color: #bec0c1;
 	padding-left: 10px;
 }
 
