@@ -26,6 +26,7 @@ h3 {
 	padding-top: 8%;
 	margin-bottom: 5px;
 	text-transform: lowercase;
+	font-weight: 500;
 }
 
 h4, p{
@@ -89,14 +90,19 @@ header nav {
 header nav ul li {
 	float: left;
 	margin-left: 25px;
+	color: #d00034;
+	font-weight: 550;
+	font-size: 20px;
 }
 
 header nav ul li a {
 	font-size: 16px;
+	color: #d00034;
 }
 
 header nav ul li:hover {
 	padding-top: 5px;
+	color: #23bf00;
 }
 
 /* HOME ****************/
@@ -111,14 +117,14 @@ header nav ul li:hover {
 #home h1 {
 	margin: 240px auto 0 auto;
 	font-size: 60px;
-	color: #9f9f9f; 
+	color: #23bf00; 
 	font-weight: 500;
 }
 
 #home h2 {
 	margin: 0 auto 0 auto;
 	font-size: 25px;
-	color: #9f9f9f; 
+	color: #b82f51; 
 }
 
 #home img {
@@ -149,6 +155,11 @@ header nav ul li:hover {
 
 #about h3 {
 	margin: 1px;
+	color: #00fff9;
+}
+
+#about hr {
+	background-color: #00fff9;
 }
 
 #about img{
@@ -165,11 +176,13 @@ header nav ul li:hover {
 #about h4{
 	font-size: 20px;
 	font-weight: 550;
+	color: #23bf00;
 }
 
 #about p {
 	width: 80%; 
 	margin: 0 auto 0 auto;
+	color: #23bf00;
 }
 
 /* WORK ***************/
@@ -179,6 +192,11 @@ header nav ul li:hover {
 
 #work h3 {
 	margin: 1px;
+	color: #b82f51;
+}
+
+#work hr {
+	background-color: #b82f51;
 }
 
 #projects {
@@ -219,18 +237,23 @@ header nav ul li:hover {
 
 #contact h3 {
 	margin: 1px;
+	color: #f0ff00;
+}
+
+#contact hr {
+	background-color: #f0ff00;
 }
 
 form input, textarea{
 	background-color: #3e3e3e;
-	color: #9f9f9f;
+	/*color: #f0ff00;*/
 	font-family: "Courier New";
 	font-size: 15px;
 	margin-bottom: 10px;
 	border-radius: 3px;
 	border: 1px solid;
 	border-color: #707274;
-	outline-color: #bec0c1;
+	outline-color: #f0ff00;
 	text-transform: lowercase;
 }
 
@@ -251,25 +274,28 @@ form textarea {
 }
 
 .input_text {
-	color: #bec0c1;
+	color: #f0ff00;
 	padding-left: 10px;
 }
 
-::-webkit-input-placeholder {color: #999999;} 
-::-moz-placeholder {color: #999999;} 
-::-ms-input-placeholder {color: #999999;} 
-::-moz-placeholder {color: #999999;} 
+::-webkit-input-placeholder {color: #FFFFFF;} 
+::-moz-placeholder {color: #FFFFFF;} 
+::-ms-input-placeholder {color: #FFFFFF;} 
+::-moz-placeholder {color: #FFFFFF;} 
 
 .button{
-	background-color: #3e3e3e;
-	color: #9f9f9f;
+	background-color: #000000;
+	color: #f0ff00;
 	width: 550px;
 	height: 40px;
+	font-weight: 600;
+	font-size: 20px;
+	border-color: #FFFFFF;
 }
 
 .button:hover {
-	background-color: #9f9f9f;
-	color: #3e3e3e;
+	background-color: #f0ff00;
+	color: #000000;
 }
 
 /* FOOTER ************/
@@ -281,9 +307,10 @@ footer {
 
 footer p {
 	margin: 0px;
-	font-size: 10px;
-	color: #9f9f9f;
+	font-size: 15px;
+	color: #d00034;
 	padding-top: 20px;
+	font-weight: bold;
 }
 
 /* MEDIA ************/
