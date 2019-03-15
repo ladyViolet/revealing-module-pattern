@@ -140,8 +140,8 @@ header nav ul li:hover {
 #home .fa-angle-down {
 	font-size: 80px;
 	margin-top: 150px;
-	opacity: 0.7;
-	color: #9f9f9f;
+	opacity: 0.5;
+	color: #23bf00;
 }
 
 #home .fa-angle-down:hover {
