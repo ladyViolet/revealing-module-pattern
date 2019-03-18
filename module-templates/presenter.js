@@ -3,7 +3,7 @@ var {{namespace}} = {{namespace}} || {};
 
 //Presenter module for your app to initialize and controll all other modules
 
-{{namespace}}.{{modulename}} = (function() {
+{{namespace}}.{{modulename}} = {{scope}}function() {
 //turning js strict-mode on
   "use strict";
 
@@ -22,6 +22,6 @@ var {{namespace}} = {{namespace}} || {};
   //if init is true
   //that.init = init;
   return that;
-}());
+}(){{scope}};
 //if init is true
 //{{namespace}}.{{modulename}}.init();
