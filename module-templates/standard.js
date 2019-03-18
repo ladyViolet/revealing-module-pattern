@@ -3,7 +3,7 @@ var {{namespace}} = {{namespace}} || {};
 
 //Standard module for your app
 
-{{namespace}}.{{modulename}} = (function() {
+{{namespace}}.{{modulename}} = {{scope}}function() {
   //turning js strict-mode on
   "use strict";
 
@@ -14,4 +14,4 @@ var {{namespace}} = {{namespace}} || {};
   //your functions
 
   return that;
-}());
+}(){{scope}};
