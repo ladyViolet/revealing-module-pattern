@@ -14,9 +14,11 @@ var {{namespace}} = {{namespace}} || {};
   {{initialBegin}}
 
   //your functions
+  {{functions}}   
 
-  //if init is true
-  //that.init = init;
+  //functions to be revealed   
+  {{revealingFunctions}}
+  {{revealInitial}}
   return that;
 }(){{scopeEnd}};
 {{initialEnd}}
