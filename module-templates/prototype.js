@@ -3,7 +3,7 @@ var {{namespace}} = {{namespace}} || {};
 
 //Prototype for your app
 
-{{namespace}}.{{modulename}} = (function() {
+{{namespace}}.{{modulename}} = {{scope}}function() {
   //turning js strict-mode on
   "use strict";
 
@@ -15,4 +15,4 @@ function {{modulename}}(/*arguments for constructor*/) {
   //your functions
 
   return {{modulename}};
-}());
+}(){{scope}};
