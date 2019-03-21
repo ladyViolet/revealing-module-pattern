@@ -3,7 +3,7 @@ var {{namespace}} = {{namespace}} || {};
 
 //Standard module for your app
 
-{{namespace}}.{{modulename}} = (function() {
+{{namespace}}.{{modulename}} = {{scopeBegin}}function() {
   //turning js strict-mode on
   "use strict";
 
@@ -12,6 +12,10 @@ var {{namespace}} = {{namespace}} || {};
   ;
 
   //your functions
-
+  {{functions}}  
+     
+  //functions to be revealed   
+  {{revealingFunctions}}
+  {{revealInitial}}
   return that;
-}());
+}(){{scopeEnd}};
