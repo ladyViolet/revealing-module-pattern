@@ -1,35 +1,34 @@
-<!-- This is {{template}}.html
-Following we provide an example for a Onepage-Website. 
+<!-- This is index.html
+Following we deserve an example for a Onepage-Website.
 For example you can delete unnecessary sections or add some more.
-Furthermore you could adept everything in such a way that it fits to your project.
---> 
+Furthermore you could adapt everything in such a way that it fits your project.
+-->
 <!doctype html>
 <html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
-	<link rel="stylesheet" type="text/css" href="{{style-sheet}}">
-	
-	 <title>{{title}}</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{css-link}}"> 
+
+	 <title>Your App</title>
  </head>
 
   <body>
-
 <!-- HEADER ------------->
   	<header>
   		<div id="logo">
   			<a href="#">
-  				<img src="../images/example.png" alt="Your Logo"> <!-- enter your logo -->
+  				<img src="img/logo.png" alt="Your Logo"> <!-- enter your logo-->
   			</a>
   		</div>
 
 		<nav id="nav">
-			<i class="fas fa-bars"></i> <!-- menu-bar for mobile devices -->
+			<i class="fas fa-bars"></i> <!-- menu-bar for mobile devices-->
 			<ul>
-				<!-- links to the different sections -->
-				<a href="#home"><li>Home</li></a>   
+				<!-- links to the different sections-->
+				<a href="#home"><li>Home</li></a>
 				<a href="#about"><li>About</li></a>
 				<a href="#work"><li>Work</li></a>
 				<a href="#contact"><li>Contact</li></a>
@@ -39,7 +38,7 @@ Furthermore you could adept everything in such a way that it fits to your projec
 
 <!-- HOME ------------->
   	<section id="home">
-  		<hr>
+  		<hr> 
   		<h1>Preview h1-Home</h1>
   		<h2>Preview h2</h2>
   		<a href="#about">
@@ -51,7 +50,7 @@ Furthermore you could adept everything in such a way that it fits to your projec
 	<section id="about">
 		<h3>Preview h3-About</h3>
 		<hr>
-		<img src="../images/example.png" alt="preview"> <!-- enter an image of your company -->
+		<img src="img/logo.png" alt="preview"> <!-- enter an image of your company -->
 		<h4>Preview h4</h4>
 		<p>Preview paragraph: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
 	</section>
@@ -64,14 +63,14 @@ Furthermore you could adept everything in such a way that it fits to your projec
 		<div id="projects">
 			<ul>
 				<!-- enter pictures of your projects -->
-				<li><a href=""><img src="../images/example.png" alt="project1"></a></li>
-				<li><a href=""><img src="../images/example.png" alt="project2"></a></li>
-				<li><a href=""><img src="../images/example.png" alt="project3"></a></li>
-				<li><a href=""><img src="../images/example.png" alt="project4"></a></li>
-				<li><a href=""><img src="../images/example.png" alt="project5"></a></li>
-				<li><a href=""><img src="../images/example.png" alt="project6"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project1"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project2"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project3"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project4"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project5"></a></li>
+				<li><a href=""><img src="img/logo.png" alt="project6"></a></li>
 			</ul>
-		</div>		
+		</div>
 	</section>
 
 
@@ -89,18 +88,12 @@ Furthermore you could adept everything in such a way that it fits to your projec
 
 <!-- FOOTER ----------->
 	<footer>
-		<p>&copy; Your copyright</p> <!-- enter your own copyright or necessary informations -->
+		<p>&copy; Your copyright</p> <!-- enter your own copyright or necessary informations-->
 	</footer>
 
-	<!-- script to enable menu-bar for mobile-devices -->
+	<!-- script to enable menu-bar for mobile-devices-->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script> 
-	<script> 
-		$(document).ready(function() {
-			$(".fa-bars").on("click", function() {
-				$("header nav ul").toggleClass("open");
-			});
-		});
-	</script>
-
+	<script src="js/mobile-menu.js"></script>
+	
   </body>
-</html> 
+</html>
