@@ -18,22 +18,25 @@ li {list-style: none;}
 h1, h2, h3, a {
 	font-family: 'Cookie', cursive;
 	color: #00dfff;
+	letter-spacing: 0.1em;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 55px;
 	padding-top: 8%;
 	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 h4, p{
 	font-family: 'Amatic SC', cursive;
 	font-weight: 500;
 	color: #9f9f9f;
+	letter-spacing: 0.1em;
 }
 
 hr{
-	width: 200px;
+	width: 300px;
 	height: 3px;
 	background-color: #1500ff;
 	border: 0px;
@@ -66,9 +69,9 @@ header {
 }
 
 #logo {
-	width: 90px;
+	width: 110px;
 	float: left;
-	margin: 5.5px 0px 0px 30px;
+	margin: 6.5px 0px 0px 30px;
 }
 
 #logo:hover {
@@ -87,9 +90,12 @@ header nav {
 
 header nav ul li {
 	float: left;
-	margin-left: 25px;
-	font-size: 20px;
+	margin-top: -4px;
+	margin-left: 30px;
+	font-size: 25px;
 	color: #eaedee;
+	font-weight: bold;
+	letter-spacing: 0.1em;
 }
 
 header nav ul li a {
@@ -163,12 +169,10 @@ header nav ul li:hover {
 #about h3 {
 	margin: 1px;
 	color: #9923ff;
-	font-weight: 600;
-	font-size: 50px;
 }
 
 #about img{
-	width: 200px;
+	width: 250px;
 }
 
 #about img:hover{
@@ -180,13 +184,14 @@ header nav ul li:hover {
 }
 
 #about h4{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 600;
 	color: #7708d6;
 }
 
 #about p {
 	width: 80%;
+	font-size: 20px;
 	margin: 0 auto 0 auto;
 	color: #7708d6;
 	font-weight: 600;
@@ -204,8 +209,6 @@ header nav ul li:hover {
 #work h3 {
 	margin: 1px;
 	color: #FFFFFF;
-	font-size: 50px;
-	font-weight: 600;
 }
 
 #projects {
@@ -227,8 +230,9 @@ header nav ul li:hover {
 }
 
 #projects img {
-	width: 271px;
-	height: 170px;
+	width: 240px;
+	height: 120px;
+	margin-left: 25px;
 	border-radius: 5px;
 	padding: 1px;
 }
@@ -254,16 +258,14 @@ header nav ul li:hover {
 #contact h3 {
 	margin: 1px;
 	color: #74d235;
-	font-size: 50px;
-	font-weight: 600;
 }
 
 form input, textarea{
 	background-color: #FFFFFF;
 	font-family: 'Pacifico', cursive;
-	font-weight: 800;
+	font-weight: normal;
 	color: #74d235;
-	font-size: 15px;
+	font-size: 17px;
 	margin-bottom: 10px;
 	border-radius: 3px;
 	border: 1px solid;
@@ -300,8 +302,10 @@ form textarea {
 .button{
 	background-color: #74d235;
 	color: #FFFFFF;
-	width: 550px;
+	width: 560px;
 	height: 40px;
+	font-size: 20px;
+	font-weight: lighter;
 }
 
 .button:hover {
