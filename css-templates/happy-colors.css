@@ -336,39 +336,54 @@ footer p {
 		height: auto;
 	}
 
+	hr {
+		width: 30%;
+	}
+
 	#logo {
-		width: 50px;
+		width: 10%;
 		margin-top: 5px;
 	}
 
 	header nav {
-		margin-top: -5px;
+		margin-top: 0%;
 	}
 
 	header nav ul li {
-		font-size: 13px;
+		font-size: 100%;
 	}
 
 	#home h1 {
-		font-size: 30px;
+		font-size: 370%;
 		margin-top: 200px;
 	}
 
 	#home h2 {
-		font-size: 10px;
+		font-size: 200%;
 	}
 
 	h3 {
-		padding-top: 12%
+		padding-top: 15%;
 		margin: 0px; /* Clears distance to the other section*/
+		font-size: 200%;
+	}
+
+	#about img {
+		width: 25%;
+	}
+
+	#about h4 {
+		font-size: 170%;
 	}
 
 	#about p {
 		width: 80%;
+		font-size: 100%;
 	}
 
 	#projects {
-		width: auto;
+		width: 50%;
+		margin-left: 20%;
 	}
 
 	#projects ul li {
@@ -377,7 +392,7 @@ footer p {
 	}
 
 	#projects ul li:last-child {
-		padding-bottom: 20%;
+		padding-bottom: 5%;
 	}
 
 	#projects img {
