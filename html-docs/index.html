@@ -99,6 +99,14 @@ Furthermore you could adept everything in such a way that it fits to your projec
 			$(".fa-bars").on("click", function() {
 				$("header nav ul").toggleClass("open");
 			});
+
+			$("header nav ul li").on("click", function() { 
+				$("header nav ul").removeClass("open");
+			});
+
+			$("section").on("click", function() {
+				$("header nav ul").removeClass("open");
+			});
 		});
 	</script>
 
