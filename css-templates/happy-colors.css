@@ -367,12 +367,13 @@ footer p {
 	}
 
 	#logo {
-		width: 12%;
+		width: 70px;
 		margin-top: 7px;
 	}
 
 	#logo.tiny {
-		width: 10%;
+		width: 60px;
+		/*margin-top: 0%;*/
 	}
 
 	header nav {
@@ -386,6 +387,7 @@ footer p {
 
 	header nav ul li.tiny {
 		font-size: 100%;
+		margin-top: -7%;
 	}
 
 	#home h1 {
@@ -453,6 +455,10 @@ footer p {
 	#logo {
 		width: 14%;
 		margin-top: 3px;
+	}
+
+	#logo.tiny {
+		width: 10%;
 	}
 
 	header nav {

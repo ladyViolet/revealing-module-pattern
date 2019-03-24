@@ -11,6 +11,7 @@ $(document).ready(function() {
 	$("section").on("click", function() {
 		$("header nav ul").removeClass("open");
 	});
+
 });
 
 $(window).on("scroll touchmove", function () {
