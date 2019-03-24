@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 $(window).on("scroll touchmove", function () {
-	/*$("header").toggleClass("tiny", $(document).scrollTop() > 0);*/
+	$("header").toggleClass("tiny", $(document).scrollTop() > 0);
 	$("header nav ul li").toggleClass("tiny", $(document).scrollTop() > 0);
 	$("#logo").toggleClass("tiny", $(document).scrollTop() > 0);
 	$(".fa-bars").toggleClass("tiny", $(document).scrollTop() > 0);

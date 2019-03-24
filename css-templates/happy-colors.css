@@ -70,15 +70,14 @@ header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color: #FFFFFF; /*#e6e6e67b;*/
+	background-color: #FFFFFF;
 	opacity: 0.85;
 	box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
 	z-index: 1;
 }
 
-
 header.tiny {
-	height: auto;/*40px;*/
+	height: auto;
 }
 
 #logo {
@@ -88,7 +87,7 @@ header.tiny {
 }
 
 #logo.tiny {
-	width: 70px;
+	width: 80px;
 }
 
 #logo:hover {
@@ -111,7 +110,7 @@ header nav ul li {
 	margin-left: 30px;
 	font-size: 40px;
 	font-family: 'Amatic SC', cursive;
-	color: #000000; /*#636C6E;*/
+	color: #000000;
 	font-weight: bolder;
 	letter-spacing: 0.01em;
 }
@@ -126,7 +125,7 @@ header nav ul li a {
 
 header nav ul li:hover {
 	padding-top: 5px;
-	color: #636C6E;/*#eaedee;*/
+	color: #636C6E;
 }
 
 /* HOME ****************/
@@ -185,7 +184,7 @@ header nav ul li:hover {
 }
 
 #about hr {
-	background-color: #8B348C;/*#631B50;*/
+	background-color: #8B348C;
 }
 
 #about h3 {
@@ -225,7 +224,7 @@ header nav ul li:hover {
 }
 
 #work hr {
-	background-color: #656565; /*#B6F7FF;*/
+	background-color: #656565; 
 }
 
 #work h3 {
@@ -360,7 +359,6 @@ footer p {
 	h3 {
 		padding-top: 15%;
 		margin: 0px; /* Clears distance to the other section*/
-		/*font-size: 100%;*/
 		font-size: 5vw;
 	}
 
@@ -391,12 +389,12 @@ footer p {
 	}
 
 	#home h1 {
-		font-size: 9vw; /*370%;*/
+		font-size: 9vw; 
 		margin-top: 200px;
 	}
 
 	#home h2 {
-		font-size: 7vw;/*200%;*/
+		font-size: 7vw;
 	}
 
 
@@ -452,11 +450,6 @@ footer p {
 		height: auto;
 	}
 
-/*
-	header.tiny {
-		height: auto;
-	}
-*/
 	#logo {
 		width: 14%;
 		margin-top: 3px;
