@@ -510,19 +510,20 @@ footer p {
 		display: none;
 	}
 
+/*
 	header nav ul li.tiny {
 		font-size: 90%;
 	}
-
+*/
 	header nav ul li:hover {
 		background-color: #FFFFFF;
 		font-size: 115%;
 	}
-
+/*
 	header nav ul li:hover.tiny {
 		font-size: 110%;
 	}
-
+*/
 	#home h1 {
 		font-size: 250%;
 		margin-top: 45%;
