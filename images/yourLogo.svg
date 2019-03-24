@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="326.46927"
-     inkscape:cy="34.895397"
+     inkscape:zoom="1.4"
+     inkscape:cx="508.17994"
+     inkscape:cy="218.38629"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,15 +96,278 @@
          id="path860" />
     </g>
     <path
-       style="opacity:1;fill:#ff2a7f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m -226.11697,47.218818 a 32.505951,32.505951 0 0 0 -22.8477,8.676989 32.505951,32.505951 0 0 0 -8.72918,33.841861 15.119045,15.119045 0 0 1 1.59887,-2.31562 20.410712,20.410712 0 0 1 6.49676,-14.432711 20.410712,20.410712 0 0 1 28.84527,1.069702 20.410712,20.410712 0 0 1 -1.06971,28.845271 20.410712,20.410712 0 0 1 -12.52481,5.39192 15.119045,15.119045 0 0 1 -3.01222,2.11925 32.505951,32.505951 0 0 0 32.63108,-6.87762 32.505951,32.505951 0 0 0 1.70274,-45.938798 32.505951,32.505951 0 0 0 -23.0911,-10.380244 z"
-       id="path823"
-       inkscape:connector-curvature="0" />
+       style="opacity:1;fill:#e6e6e6;fill-opacity:0.4813084;fill-rule:evenodd;stroke:none;stroke-width:3.13276267;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="M 505.86523 4.6503906 A 110.71426 110.71426 0 0 0 498.04102 5.1269531 A 110.71426 110.71426 0 0 0 398.48047 125.96875 A 110.71426 110.71426 0 0 0 409.81055 164.88086 C 410.54 164.13665 411.39519 163.38206 412.42969 162.68555 A 61.277677 61.277677 0 0 1 410.55469 152.46094 A 61.277677 61.277677 0 0 1 465.66016 85.578125 A 61.277677 61.277677 0 0 1 532.54297 140.68164 A 61.277677 61.277677 0 0 1 477.43945 207.56641 A 61.277677 61.277677 0 0 1 458.38867 206.38477 C 456.87112 208.06981 455.28265 209.67958 453.63672 211.22852 A 110.71426 110.71426 0 0 0 519.32227 225.5293 A 110.71426 110.71426 0 0 0 618.88477 104.6875 A 110.71426 110.71426 0 0 0 505.86523 4.6503906 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-358.81323,47.210628)"
+       id="path824" />
     <path
-       style="opacity:1;fill:#6c5353;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62790692;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m -237.95087,71.078342 c -5.30861,-0.119132 -10.45467,1.835228 -14.34589,5.448247 -4.11901,3.839104 -5.41074,9.209263 -5.43585,14.83992 4.97431,-10.479583 19.69747,-15.495029 26.52551,-6.569106 6.82804,8.925923 2.30331,21.867387 -8.61911,25.982397 5.62852,0.39381 11.16897,-0.50155 15.30553,-4.33876 8.26029,-7.670108 8.73897,-20.584165 1.06918,-28.844749 -3.75365,-4.042868 -8.984,-6.394082 -14.49937,-6.517949 z"
-       id="path830"
+       style="opacity:1;fill:#808080;fill-opacity:0.4813084;fill-rule:evenodd;stroke:none;stroke-width:3.13276267;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 469.99023,85.314453 c -1.44602,0.03676 -2.89028,0.124702 -4.33007,0.263672 -33.68537,3.253192 -58.35582,33.197365 -55.10352,66.882815 0.3627,3.44033 1.01608,6.84376 1.95313,10.17383 0.92168,-0.61245 2.62147,-2.35949 2.68694,-3.67076 1.06914,-21.41543 16.6352,-37.39565 37.97712,-39.46596 22.78211,-2.19941 43.03388,14.48557 45.23437,37.26757 2.15006,22.38601 -12.89127,41.81851 -35.02148,45.81976 -1.9198,0.34711 -3.67563,2.3287 -4.96875,3.76618 6.23832,1.3946 12.65643,1.80451 19.02148,1.21485 33.68699,-3.25217 58.35888,-33.1979 55.10547,-66.88477 -3.09158,-32.01156 -30.40463,-56.186344 -62.55469,-55.367187 z"
+       transform="matrix(0.26458333,0,0,0.26458333,-358.81323,47.210628)"
+       id="path833"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccczcccc" />
+       sodipodi:nodetypes="ccccsccsccsc" />
+    <g
+       id="g861"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:125%;font-family:'Franklin Gothic Demi';-inkscape-font-specification:'Franklin Gothic Demi';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="scale(0.26458333)"
+       aria-label="your logo">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1262.0586,340.50586 c 2.2545,0.85544 2.7003,1.06108 0,0 z"
+         id="path1010" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1029.5586,340.50586 c 2.2545,0.85544 2.7003,1.06108 0,0 z"
+         id="path1008" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -926.62109,340.50586 c 2.2545,0.85544 2.70026,1.06108 0,0 z"
+         id="path1006" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1036.6191,341.57227 c -3.5142,2.64585 1.4974,-1.50216 0,0 z"
+         id="path1004" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1050.9648,345.20703 c -0.017,0.0195 -0.029,0.0391 -0.045,0.0586 -0.013,0.0152 -0.036,0.0357 -0.049,0.0508 z"
+         id="path1000" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -969.73047,347.44727 c 0.25634,0.11087 -2.0926,-1.061 0,0 z"
+         id="path998" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1286.3594,350.35742 c -0.077,-0.0739 -0.1357,-0.10122 0.2578,0.32813 -0.096,-0.11143 -0.1589,-0.21511 -0.2578,-0.32813 z"
+         id="path996" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -980.79883,351.26758 c -0.13797,0.20518 -0.30091,0.40817 -0.41797,0.61328 0.12306,-0.20825 0.25101,-0.38204 0.41797,-0.61328 z"
+         id="path994" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -950.92383,354.7793 c 0.0332,0.0443 0.0592,0.0885 0.0391,0.0664 -0.0158,-0.0208 -0.0232,-0.0456 -0.0391,-0.0664 z"
+         id="path992" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -985.02539,360.81641 c -0.30072,0.40095 -0.45023,0.73619 -0.73438,1.13281 0.003,-0.009 0.003,-0.0303 0.006,-0.0391 -0.0221,0.006 -0.22773,0.31035 0.36329,-0.57618 z"
+         id="path990" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1284.2441,371.01172 c -0.024,0.0924 -0.052,0.1862 -0.043,0.14062 0.013,-0.0538 0.03,-0.0866 0.043,-0.14062 z"
+         id="path988" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1126.6016,374.08203 c -0.1183,0.29774 -0.1408,0.27809 -0.2324,0.42774 0,-0.009 0.01,-0.0165 0.01,-0.0254 0.046,-0.0749 0.068,-0.12885 0.123,-0.23633 0.032,-0.0557 0.068,-0.11043 0.1,-0.16602 z"
+         id="path986" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1271.0781,376.93164 c -0.3322,0.42538 -0.038,0.0107 0,0 z"
+         id="path984" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1038.5781,376.93164 c -0.3322,0.42538 -0.038,0.0107 0,0 z"
+         id="path982" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -935.64062,376.93164 c -0.33217,0.42538 -0.0375,0.0107 0,0 z"
+         id="path980" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1277.8516,396.39844 1.5606,2.02734 c -0.2951,-0.008 -0.4916,-0.0886 -0.7578,-0.12109 -0.3039,-0.54439 -0.5737,-1.18933 -0.8028,-1.90625 z"
+         id="path978" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1045.3516,396.39844 1.5606,2.02734 c -0.2951,-0.008 -0.4916,-0.0886 -0.7578,-0.12109 -0.3039,-0.54439 -0.5737,-1.18933 -0.8028,-1.90625 z"
+         id="path976" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1304.7734,403.13672 c 0.011,0.0453 0.032,0.0913 0.043,0.13672 0.01,0.0358 0,0.0539 0.014,0.0898 z"
+         id="path972" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1072.2734,403.13672 c 0.011,0.0453 0.032,0.0913 0.043,0.13672 0.01,0.0358 0,0.0539 0.014,0.0898 z"
+         id="path970" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -969.33594,403.13672 c 0.0108,0.0453 0.0319,0.0913 0.043,0.13672 0.009,0.0358 0.004,0.0539 0.0137,0.0898 z"
+         id="path968" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1269.3945,403.83398 c 0.089,2.19118 -0.1101,1.76193 -0.014,0.0547 0,-0.0187 0.01,-0.036 0.014,-0.0547 z"
+         id="path966" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1036.8945,403.83398 c 0.089,2.19118 -0.1101,1.76193 -0.014,0.0547 0,-0.0187 0.01,-0.036 0.014,-0.0547 z"
+         id="path964" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -933.95703,403.83398 c 0.0893,2.19118 -0.11005,1.76193 -0.0137,0.0547 0.005,-0.0187 0.009,-0.036 0.0137,-0.0547 z"
+         id="path962" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1295.9121,406.79297 c -0.018,0.0599 -0.044,0.14193 -0.039,0.12305 0.013,-0.0425 0.026,-0.0806 0.039,-0.12305 z"
+         id="path960" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1047.5586,407.53125 c 0.4003,1.66256 0.1996,0.73665 0.068,0.40234 -0.041,-0.15555 -0.022,-0.23967 -0.068,-0.40234 z"
+         id="path958" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1223.541,409.36914 c 0.01,0.022 0.018,0.0405 0.025,0.0625 0.01,0.0208 0.022,0.0775 0.029,0.0977 z"
+         id="path956" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1324.1387,417.04102 c 0.071,-0.0915 0.4221,-0.53317 -0.082,0.0781 0.028,-0.0325 0.054,-0.0453 0.082,-0.0781 z"
+         id="path954" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -987.82617,417.76172 c -0.0716,0.0657 -0.13281,0.11263 -0.0918,0.0703 0.0248,-0.0233 0.0674,-0.047 0.0918,-0.0703 z"
+         id="path952" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1183.0312,419.43164 c -0.069,0.0729 -0.1329,0.1276 -0.096,0.082 0.03,-0.0327 0.065,-0.049 0.096,-0.082 z"
+         id="path950" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1061.3027,420.61523 c 0.057,0.046 0.1411,0.0887 0.1992,0.13477 0.045,0.0339 0.076,0.0777 0.1211,0.11133 z"
+         id="path948" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1049.8164,425.78516 c -0.024,0.069 -0.058,0.15755 -0.051,0.13281 0.015,-0.0453 0.036,-0.0874 0.051,-0.13281 z"
+         id="path946" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -994.75781,448.45703 c 0.0401,0.024 -0.1108,-0.1321 0,0 z"
+         id="path859" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1262.0586,340.50586 c 2.2545,0.85544 2.7003,1.06108 0,0 z"
+         id="path935" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1029.5586,340.50586 c 2.2545,0.85544 2.7003,1.06108 0,0 z"
+         id="path933" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -926.62109,340.50586 c 2.2545,0.85544 2.70026,1.06108 0,0 z"
+         id="path931" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1036.6191,341.57227 c -3.5142,2.64585 1.4974,-1.50216 0,0 z"
+         id="path929" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1050.9648,345.20703 c -0.017,0.0195 -0.029,0.0391 -0.045,0.0586 -0.013,0.0152 -0.036,0.0357 -0.049,0.0508 z"
+         id="path925" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -969.73047,347.44727 c 0.25634,0.11087 -2.0926,-1.061 0,0 z"
+         id="path923" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1286.3594,350.35742 c -0.077,-0.0739 -0.1357,-0.10122 0.2578,0.32813 -0.096,-0.11143 -0.1589,-0.21511 -0.2578,-0.32813 z"
+         id="path921" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -980.79883,351.26758 c -0.13797,0.20518 -0.30091,0.40817 -0.41797,0.61328 0.12306,-0.20825 0.25101,-0.38204 0.41797,-0.61328 z"
+         id="path919" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -950.92383,354.7793 c 0.0332,0.0443 0.0592,0.0885 0.0391,0.0664 -0.0158,-0.0208 -0.0232,-0.0456 -0.0391,-0.0664 z"
+         id="path917" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -985.02539,360.81641 c -0.30072,0.40095 -0.45023,0.73619 -0.73438,1.13281 0.003,-0.009 0.003,-0.0303 0.006,-0.0391 -0.0221,0.006 -0.22773,0.31035 0.36329,-0.57618 z"
+         id="path915" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1284.2441,371.01172 c -0.024,0.0924 -0.052,0.1862 -0.043,0.14062 0.013,-0.0538 0.03,-0.0866 0.043,-0.14062 z"
+         id="path913" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1126.6016,374.08203 c -0.1183,0.29774 -0.1408,0.27809 -0.2324,0.42774 0,-0.009 0.01,-0.0165 0.01,-0.0254 0.046,-0.0749 0.068,-0.12885 0.123,-0.23633 0.032,-0.0557 0.068,-0.11043 0.1,-0.16602 z"
+         id="path911" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1271.0781,376.93164 c -0.3322,0.42538 -0.038,0.0107 0,0 z"
+         id="path909" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1038.5781,376.93164 c -0.3322,0.42538 -0.038,0.0107 0,0 z"
+         id="path907" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -935.64062,376.93164 c -0.33217,0.42538 -0.0375,0.0107 0,0 z"
+         id="path905" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1277.8516,396.39844 1.5606,2.02734 c -0.2951,-0.008 -0.4916,-0.0886 -0.7578,-0.12109 -0.3039,-0.54439 -0.5737,-1.18933 -0.8028,-1.90625 z"
+         id="path903" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1045.3516,396.39844 1.5606,2.02734 c -0.2951,-0.008 -0.4916,-0.0886 -0.7578,-0.12109 -0.3039,-0.54439 -0.5737,-1.18933 -0.8028,-1.90625 z"
+         id="path901" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1304.7734,403.13672 c 0.011,0.0453 0.032,0.0913 0.043,0.13672 0.01,0.0358 0,0.0539 0.014,0.0898 z"
+         id="path897" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1072.2734,403.13672 c 0.011,0.0453 0.032,0.0913 0.043,0.13672 0.01,0.0358 0,0.0539 0.014,0.0898 z"
+         id="path895" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -969.33594,403.13672 c 0.0108,0.0453 0.0319,0.0913 0.043,0.13672 0.009,0.0358 0.004,0.0539 0.0137,0.0898 z"
+         id="path893" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1269.3945,403.83398 c 0.089,2.19118 -0.1101,1.76193 -0.014,0.0547 0,-0.0187 0.01,-0.036 0.014,-0.0547 z"
+         id="path891" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1036.8945,403.83398 c 0.089,2.19118 -0.1101,1.76193 -0.014,0.0547 0,-0.0187 0.01,-0.036 0.014,-0.0547 z"
+         id="path889" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -933.95703,403.83398 c 0.0893,2.19118 -0.11005,1.76193 -0.0137,0.0547 0.005,-0.0187 0.009,-0.036 0.0137,-0.0547 z"
+         id="path887" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1295.9121,406.79297 c -0.018,0.0599 -0.044,0.14193 -0.039,0.12305 0.013,-0.0425 0.026,-0.0806 0.039,-0.12305 z"
+         id="path885" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1047.5586,407.53125 c 0.4003,1.66256 0.1996,0.73665 0.068,0.40234 -0.041,-0.15555 -0.022,-0.23967 -0.068,-0.40234 z"
+         id="path883" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1223.541,409.36914 c 0.01,0.022 0.018,0.0405 0.025,0.0625 0.01,0.0208 0.022,0.0775 0.029,0.0977 z"
+         id="path881" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1324.1387,417.04102 c 0.071,-0.0915 0.4221,-0.53317 -0.082,0.0781 0.028,-0.0325 0.054,-0.0453 0.082,-0.0781 z"
+         id="path879" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -987.82617,417.76172 c -0.0716,0.0657 -0.13281,0.11263 -0.0918,0.0703 0.0248,-0.0233 0.0674,-0.047 0.0918,-0.0703 z"
+         id="path877" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1183.0312,419.43164 c -0.069,0.0729 -0.1329,0.1276 -0.096,0.082 0.03,-0.0327 0.065,-0.049 0.096,-0.082 z"
+         id="path875" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1061.3027,420.61523 c 0.057,0.046 0.1411,0.0887 0.1992,0.13477 0.045,0.0339 0.076,0.0777 0.1211,0.11133 z"
+         id="path873" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -1049.8164,425.78516 c -0.024,0.069 -0.058,0.15755 -0.051,0.13281 0.015,-0.0453 0.036,-0.0874 0.051,-0.13281 z"
+         id="path871" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vendetta;-inkscape-font-specification:Vendetta"
+         d="m -994.75781,448.45703 c 0.0401,0.024 -0.1108,-0.1321 0,0 z"
+         id="path867" />
+    </g>
   </g>
 </svg>

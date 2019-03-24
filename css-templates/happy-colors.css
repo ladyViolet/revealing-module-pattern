@@ -1,7 +1,7 @@
 /* This is css happy-color-template
 Following we provide an example for a Onepage-Website.
 For example you can delete unnecessary sections or add some more.
-Furthermore you could adept everything in such a way that it fits to your project.
+Furthermore you could adapt everything in such a way that it fits to your project.
 */
 
 html, body {
@@ -15,10 +15,8 @@ section {min-height: 100%;}
 a {text-decoration: none;}
 li {list-style: none;}
 
-h1, h2, h3, a {
-	font-family: 'Cookie', cursive;
-	color: #00dfff;
-	letter-spacing: 0.1em;
+h1, h2, h3, h4, a {
+	font-family: 'Fredericka the Great', cursive;
 }
 
 h3 {
@@ -28,14 +26,14 @@ h3 {
 	font-weight: bold;
 }
 
-h4, p{
+p {
 	font-family: 'Amatic SC', cursive;
 	font-weight: 500;
-	color: #9f9f9f;
+	color: black;
 	letter-spacing: 0.1em;
 }
 
-hr{
+hr {
 	width: 300px;
 	height: 3px;
 	background-color: #1500ff;
@@ -63,7 +61,7 @@ header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color: #9ea3a1;
+	background-color: #e6e6e67b;
 	box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
 	z-index: 1;
 }
@@ -85,17 +83,18 @@ header {
 
 header nav {
 	float: right;
-	margin: 4px 30px 0px 0px;
+	margin: 4px 30px 10px 0px;
 }
 
 header nav ul li {
 	float: left;
-	margin-top: -4px;
+	margin-top: -17px;
 	margin-left: 30px;
-	font-size: 25px;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
 	color: #eaedee;
 	font-weight: bold;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.01em;
 }
 
 header nav ul li a {
@@ -104,15 +103,13 @@ header nav ul li a {
 
 header nav ul li:hover {
 	padding-top: 5px;
-	color: #0b28ff;
-	/*transform: rotateX(180deg);*/
-	/*font-weight: 550;*/ /*DELAY*/
+	color: #636C6E;
 }
 
 /* HOME ****************/
 #home {
 	/*background: url(../img/landingpage.jpg);*/ /*add your own Landingpage image*/
-	background-color: #FFFFFF;
+	background-color: #FF9A00;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -122,16 +119,14 @@ header nav ul li:hover {
 	margin: 240px auto 0 auto;
 	font-size: 70px;
 	font-weight: 1000;
-	color: #0b28ff;
-	/*font-family: "Bradley Hand ITC";*/
+	color: #BD2C00;
 }
 
 #home h2 {
 	margin: 0 auto 0 auto;
 	font-size: 40px;
 	font-weight: 1000;
-	color: #056eff;
-	/*font-family: "Bradley Hand ITC";*/
+	color: #FF4C15;
 }
 
 #home img {
@@ -148,27 +143,27 @@ header nav ul li:hover {
 	font-size: 80px;
 	margin-top: 150px;
 	opacity: 0.7;
-	color: #0b28ff;
+	color: white;
 }
 
 #home .fa-angle-down:hover {
 	opacity: 1;
-	color: #0b28ff;
+	color: #BD2C00;
 	transform: rotate(360deg);
 }
 
 /* ABOUT **************/
 #about {
-	background-color: #f6ecff;
+	background-color: #FF1FDA;
 }
 
 #about hr {
-	background-color: #9923ff;
+	background-color: #631B50;
 }
 
 #about h3 {
 	margin: 1px;
-	color: #9923ff;
+	color: #8B348C;
 }
 
 #about img{
@@ -183,32 +178,32 @@ header nav ul li:hover {
 	transform: rotateY(180deg);
 }
 
-#about h4{
+#about h4 {
 	font-size: 30px;
 	font-weight: 600;
-	color: #7708d6;
+	color: #950B4F;;
 }
 
 #about p {
 	width: 80%;
-	font-size: 20px;
+	font-size: 120%;
 	margin: 0 auto 0 auto;
-	color: #7708d6;
+	color: #FFB3F7;
 	font-weight: 600;
 }
 
 /* WORK ***************/
 #work {
-	background-color: #5e2028;
+	background-color: #00D9FF;
 }
 
 #work hr {
-	background-color: #FFFFFF;
+	background-color: #B6F7FF;
 }
 
 #work h3 {
 	margin: 1px;
-	color: #FFFFFF;
+	color: #656565;
 }
 
 #projects {
@@ -248,16 +243,16 @@ header nav ul li:hover {
 
 /* CONTACT ****************/
 #contact {
-	background-color: #0f450f;
+	background-color: #00EE3C;
 }
 
 #contact hr {
-	background-color: #74d235;
+	background-color: #53c00a;
 }
 
 #contact h3 {
 	margin: 1px;
-	color: #74d235;
+	color: #467428;
 }
 
 form input, textarea{
@@ -300,7 +295,7 @@ form textarea {
 ::-moz-placeholder {color: #74d235;}
 
 .button{
-	background-color: #74d235;
+	background-color: #53c00a;
 	color: #FFFFFF;
 	width: 560px;
 	height: 40px;
@@ -317,7 +312,7 @@ form textarea {
 footer {
 	width: 100%;
 	height: 50px;
-	background-color: #9ea3a1;
+	background-color: #467428;
 }
 
 footer p {
@@ -376,9 +371,10 @@ footer p {
 		font-size: 170%;
 	}
 
+
 	#about p {
 		width: 80%;
-		font-size: 100%;
+		font-size: 120%;
 	}
 
 	#projects {
