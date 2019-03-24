@@ -9,7 +9,7 @@ html, body {
 	padding: 0px;
 	height: 100%;
 	text-align: center;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Amatic SC', cursive;
 }
 section {min-height: 100%;}
 a {text-decoration: none;}
@@ -257,10 +257,10 @@ header nav ul li:hover {
 
 form input, textarea{
 	background-color: #FFFFFF;
-	font-family: 'Pacifico', cursive;
-	font-weight: normal;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
 	color: #74d235;
-	font-size: 17px;
+	font-size: 20px;
 	margin-bottom: 10px;
 	border-radius: 3px;
 	border: 1px solid;
@@ -299,8 +299,7 @@ form textarea {
 	color: #FFFFFF;
 	width: 560px;
 	height: 40px;
-	font-size: 20px;
-	font-weight: lighter;
+	font-size: 30px;
 }
 
 .button:hover {
