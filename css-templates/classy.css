@@ -52,13 +52,21 @@ hr{
 	-o-transition: all 300ms;
 }
 
+.tiny {
+	transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+}
+
 .fa-bars { display: none; }
 
 /* HEADER *****************/
 header {
 	width: 100%;
-	height: 55px;
+	height: auto; /*55px*/
 	position: fixed;
+	margin-bottom: 10px;
 	top: 0px;
 	left: 0px;
 	background-color: #e1e1e1; 
@@ -66,11 +74,20 @@ header {
 	z-index: 1; 
 }
 
+header.tiny {
+	opacity: 0.9;
+}
+
 #logo {
-	width: 90px;
+	width: 85px;
 	float: left;
-	margin: 5.5px 0px 0px 30px;
+	margin: 4.5px 0px 0px 30px;
 }	
+
+#logo.tiny {
+	width: 65px;
+	margin: 4px 0px 0px 30px;
+}
 
 #logo:hover {
 	opacity: 0.5;
@@ -88,6 +105,13 @@ header nav {
 header nav ul li {
 	float: left;
 	margin-left: 25px;
+	margin-top: -4.5px;
+	font-size: 18px;
+}
+
+header nav ul li.tiny {
+	font-size: 14px;
+	margin-top: -7.5px;
 }
 
 header nav ul li a {
@@ -279,32 +303,51 @@ footer p {
 	}
 
 	#logo {
-		width: 50px; 
-		margin-top: 5px;
+		width: 60px; 
+		margin-top: 3px;
+		margin-left: 10px;
+	}
+
+	#logo.tiny {
+		width: 45px;
+		margin-top: 3px;
+		margin-left: 10px;
+		/*margin-top: 0%;*/
 	}
 
 	header nav {
-		margin-top: -5px;
+		margin-top: -3px;
 	}
 
 	header nav ul li {
-		font-size: 13px;
+		font-size: 90%;
+		margin-top: -2px;
 	}
 
-	#home h1 {
-		font-size: 30px;
-		margin-top: 200px;	
+	header nav ul li.tiny {
+		font-size: 70%;
+		margin-top: -5px;
 	}
 
-	#home h2 {
-		font-size: 10px;
+	hr {
+		width: 40%;
 	}
 
 	h3 {
 		padding-top: 12%
-		/*margin: 0px;*/ /* Clears distance to the other section*/
+		margin: 0px; /*Removes distance to the other section*/
+		font-size: 5vw;
 	}
 
+	#home h1 {
+		font-size: 7vw; 
+		margin-top: 200px;
+	}
+
+	#home h2 {
+		font-size: 4vw;
+	}
+	
 	#about p {
 		width: 80%;
 	}
@@ -338,9 +381,18 @@ footer p {
 
 /* MOBILE **/
 @media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+
 	#logo {
-		width: 50px;
-		margin-left: 30px;
+		width: 19%;
+		margin-top: 4px;
+	}
+
+	#logo.tiny {
+		width: 12%;
 	}
 
 	header nav {
@@ -351,13 +403,19 @@ footer p {
 	}
 
 	.fa-bars {
-		font-size: 17px;
+		font-size: 140%;
 		display: inline-block;
 		width: 100%;
 		cursor: pointer;
 		text-align: right;
 		float: right;
-		margin: -26px 30px 0px 0px;
+		margin: -28px 20px 4px 0px;
+	}
+
+	.fa-bars.tiny {
+		font-size: 100%;
+		margin-top: -20px;
+		margin-bottom: 0px;
 	}
 
 	.fa-bars:hover {
@@ -380,28 +438,52 @@ footer p {
 		width: 100%;
 		padding: 5px 0px;
 		margin: 0px;
-		font-size: 11px;
+		font-size: 90%;
 		border-top: 1px solid #707274;
 		float: left;
 	}
 
 	header nav ul li:hover {
 		background-color: #FFFFFF;
+		font-size: 100%;
+	}
+
+	header nav ul li.close {
+		display: none;
+	}
+
+	header nav ul li.tiny {
+		width: 100%;
+		padding: 5px 0px;
+		margin: 0px;
+		border-top: 1px solid #707274;
+		float: left;
+		font-size: 70%;
+	}
+
+	header nav ul li:hover.tiny {
+		font-size: 80%;
 	}
 
 	#home h1 {
-		font-size: 60px;
-		margin-top: 200px;
+		font-size: 160%;
+		margin-top: 70%;
 	}
 
 	#home h2 {
-		width: 70%
-		height: auto;
+		width: 70%;
+		font-size: 100%;
+		/*height: auto;*/
+	}
+
+	h3 {
+		font-size: 140%;
 	}
 
 	#projects img {
 		width: 70%;
 		height: auto;
+		margin-left: -38px;
 	}
 
 	form input, form textarea {
@@ -410,5 +492,6 @@ footer p {
 
 	.button {
 		width: 72%;
+		height: 30px;
 	}
 }

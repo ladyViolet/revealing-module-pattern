@@ -103,8 +103,19 @@ Furthermore you could adept everything in such a way that it fits to your projec
 	{{react}}
 	
 	<script> 
+		$(window).on("scroll touchmove", function () {
+			$("header").toggleClass("tiny", $(document).scrollTop() > 0);
+			$("header nav ul li").toggleClass("tiny", $(document).scrollTop() > 0);
+			$("#logo").toggleClass("tiny", $(document).scrollTop() > 0);
+			$(".fa-bars").toggleClass("tiny", $(document).scrollTop() > 0);
+		});
+
 		$(document).ready(function() {
 			$(".fa-bars").on("click", function() {
+				$("header nav ul").toggleClass("open");
+			});
+
+			$(".fa-bars.tiny").on("click", function() {
 				$("header nav ul").toggleClass("open");
 			});
 
