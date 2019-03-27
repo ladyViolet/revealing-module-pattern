@@ -1,43 +1,35 @@
-body{
+/* This is css griddy-template
+Following we deserve an example for a Onepage-Website.
+For example you can delete unnecessary sections or add some more.
+Furthermore you could adept everything in such a way that it fits to your project.
+*/
+body {
 	background-color: #2d3436;
 	font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1, h2, h3, h4{
 	font-family: 'Roboto', sans-serif;
 }
 
-h2{
-	font-family: 'Roboto', sans-serif;
-}
-
-h3{
-	font-family: 'Roboto', sans-serif;
-}
-
-h4{
-	font-family: 'Roboto', sans-serif;
-}
-
-article{
+article {
 	background-color: #BEB9D7;
 	border-radius: 1em;
 	padding-left: 1em;
 }
 
-
-header{
+header {
 	text-align: center;
 	background-color: hsla(0,0%,100%,0.8);
 	border-radius: 1em;
 }
 
-aside{
+aside {
 	background-color: #A194BC;
 	border-radius: 1em;
 }
 
-footer{
+footer {
 	background-color: hsla(0,0%,100%,0.8);
 	border-radius: 1em;
 	text-align:center;

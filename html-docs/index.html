@@ -1,17 +1,17 @@
 <!-- This is {{template}}.html
-Following we provide an example for a Onepage-Website. 
+Following we provide an example for a Onepage-Website.
 For example you can delete unnecessary sections or add some more.
 Furthermore you could adept everything in such a way that it fits to your project.
---> 
+-->
 <!doctype html>
 <html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="{{style-sheet}}">
-	
+
 	 <title>{{title}}</title>
 
 		{{jQuery}}
@@ -32,7 +32,7 @@ Furthermore you could adept everything in such a way that it fits to your projec
 			<i class="fas fa-bars"></i> <!-- menu-bar for mobile devices -->
 			<ul>
 				<!-- links to the different sections -->
-				<a href="#home"><li>Home</li></a>   
+				<a href="#home"><li>Home</li></a>
 				<a href="#about"><li>About</li></a>
 				<a href="#work"><li>Work</li></a>
 				<a href="#contact"><li>Contact</li></a>
@@ -74,7 +74,7 @@ Furthermore you could adept everything in such a way that it fits to your projec
 				<li><a href=""><img src="../images/example.png" alt="project5"></a></li>
 				<li><a href=""><img src="../images/example.png" alt="project6"></a></li>
 			</ul>
-		</div>		
+		</div>
 	</section>
 
 
@@ -96,13 +96,13 @@ Furthermore you could adept everything in such a way that it fits to your projec
 	</footer>
 
 	<!-- script to enable menu-bar for mobile-devices -->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script> 
-	
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
+
 	{{angular}}
 	{{vue}}
 	{{react}}
-	
-	<script> 
+
+	<script>
 		$(window).on("scroll touchmove", function () {
 			$("header").toggleClass("tiny", $(document).scrollTop() > 0);
 			$("header nav ul li").toggleClass("tiny", $(document).scrollTop() > 0);
@@ -119,7 +119,7 @@ Furthermore you could adept everything in such a way that it fits to your projec
 				$("header nav ul").toggleClass("open");
 			});
 
-			$("header nav ul li").on("click", function() { 
+			$("header nav ul li").on("click", function() {
 				$("header nav ul").removeClass("open");
 			});
 
@@ -130,4 +130,4 @@ Furthermore you could adept everything in such a way that it fits to your projec
 	</script>
 
   </body>
-</html> 
+</html>
