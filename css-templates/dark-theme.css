@@ -54,12 +54,19 @@ hr{
 	-o-transition: all 300ms;
 }
 
+.tiny {
+	transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+}
+
 .fa-bars { display: none; }
 
 /* HEADER *****************/
 header {
 	width: 100%;
-	height: 55px;
+	height: auto;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -68,11 +75,20 @@ header {
 	z-index: 1; 
 }
 
+header.tiny {
+	opacity: 0.9;
+}
+
 #logo {
-	width: 90px;
+	width: 120px;
 	float: left;
 	margin: 5.5px 0px 0px 30px;
 }	
+
+#logo.tiny {
+	width: 65px;
+	margin: 7px 0px 0px 30px;
+}
 
 #logo:hover {
 	opacity: 0.5;
@@ -90,9 +106,15 @@ header nav {
 header nav ul li {
 	float: left;
 	margin-left: 25px;
+	margin-top: -3px;
 	color: #d00034;
 	font-weight: 550;
-	font-size: 20px;
+	font-size: 24px;
+}
+
+header nav ul li.tiny {
+	font-size: 18px;
+	margin-top: -10px;
 }
 
 header nav ul li a {
@@ -103,6 +125,7 @@ header nav ul li a {
 header nav ul li:hover {
 	padding-top: 5px;
 	color: #23bf00;
+	text-shadow: 2px 2px 2px #000000;
 }
 
 /* HOME ****************/
@@ -164,6 +187,7 @@ header nav ul li:hover {
 
 #about img{
 	width: 200px;
+	border: 1px solid white;
 }
 
 #about img:hover{
@@ -220,6 +244,7 @@ header nav ul li:hover {
 	width: 271px; 
 	height: 170px;
 	border-radius: 5px; 
+	border: 1px solid white;
 }
 
 #projects img:hover{
@@ -322,30 +347,48 @@ footer p {
 	}
 
 	#logo {
-		width: 50px; 
+		width: 70px; 
 		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+	#logo.tiny {
+		width: 50px;
+		margin-top: 5px;
+		margin-left: 10px;
+		/*margin-top: 0%;*/
 	}
 
 	header nav {
-		margin-top: -5px;
+		margin-top: -4px;
 	}
 
 	header nav ul li {
-		font-size: 13px;
+		font-size: 120%;
 	}
 
-	#home h1 {
-		font-size: 30px;
-		margin-top: 200px;	
+	header nav ul li.tiny {
+		font-size: 90%;
+		margin-top: -5px;
 	}
 
-	#home h2 {
-		font-size: 10px;
+	hr {
+		width: 40%;
 	}
 
 	h3 {
 		padding-top: 12%
 		margin: 0px; /*Removes distance to the other section*/
+		font-size: 5vw;
+	}
+
+	#home h1 {
+		font-size: 7vw; 
+		margin-top: 200px;
+	}
+
+	#home h2 {
+		font-size: 4vw;
 	}
 
 	#about p {
@@ -368,6 +411,7 @@ footer p {
 	#projects img {
 		width: 55%;
 		height: auto;
+		margin-left: -30px;
 	}
 
 	form input, form textarea {
@@ -381,9 +425,18 @@ footer p {
 
 /* MOBILE **/
 @media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+
 	#logo {
-		width: 50px;
-		margin-left: 30px;
+		width: 19%;
+		margin-top: 5px;
+	}
+
+	#logo.tiny {
+		width: 12%;
 	}
 
 	header nav {
@@ -392,17 +445,24 @@ footer p {
 	}
 
 	.fa-bars {
-		font-size: 17px;
+		font-size: 140%;
 		display: inline-block;
 		width: 100%;
 		cursor: pointer;
 		text-align: right;
 		float: right;
-		margin: -26px 30px 0px 0px;
+		margin: -25px 20px 0px 0px;
+		color: #d00034;
 	}
 
 	.fa-bars:hover {
 		opacity: 0.5;
+	}
+
+	.fa-bars.tiny {
+		font-size: 100%;
+		margin-top: -20px;
+		margin-bottom: 0px;
 	}
 	
 	header nav ul {
@@ -421,28 +481,60 @@ footer p {
 		width: 100%;
 		padding: 5px 0px;
 		margin: 0px;
-		font-size: 11px;
+		font-size: 90%;
 		border-top: 1px solid #707274;
 		float: left;
 	}
 
 	header nav ul li:hover {
-		background-color: #FFFFFF;
+		background-color: #707274;
+		font-size: 100%
+	}
+
+	header nav ul li.close {
+		display: none;
+	}
+
+	header nav ul li.tiny {
+		width: 100%;
+		padding: 5px 0px;
+		margin: 0px;
+		border-top: 1px solid #707274;
+		float: left;
+		font-size: 70%;
+	}
+
+	header nav ul li:hover.tiny {
+		font-size: 80%;
 	}
 
 	#home h1 {
-		font-size: 60px;
-		margin-top: 200px;
+		font-size: 170%;
+		margin-top: 70%;
 	}
 
 	#home h2 {
-		width: 70%
-		height: auto;
+		width: 70%;
+		font-size: 150%;
+		/*height: auto;*/
 	}
 
+	h3 {
+		font-size: 140%;
+	}
+
+	#about h4 {
+		font-size: 100%;
+	}
+
+	#about p {
+		font-size: 90%;
+	}
+	
 	#projects img {
 		width: 70%;
 		height: auto;
+		margin-left: -38px;
 	}
 
 	form input, form textarea {
@@ -451,5 +543,6 @@ footer p {
 
 	.button {
 		width: 72%;
+		height: 30px;
 	}
 }

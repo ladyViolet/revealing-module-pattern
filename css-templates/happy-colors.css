@@ -17,6 +17,7 @@ li {list-style: none;}
 
 h1, h2, h3, h4, a {
 	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: 0.1em;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
 	padding-top: 8%;
 	margin-bottom: 5px;
 	font-weight: bold;
+	letter-spacing: 0.1em;
 }
 
 p {
@@ -44,12 +46,19 @@ hr {
 	margin-left: auto;
 }
 
-#logo, li, img, .button, .fa-bars {
+#logo, li, img, .button, .fa-bars, {
 	/*Browsersupport*/
-	transition: all 300ms;
-	-webkit-transition: all 300ms;
-	-moz-transition: all 300ms;
-	-o-transition: all 300ms;
+	transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+}
+
+.tiny {
+	transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
 }
 
 .fa-bars { display: none; }
@@ -57,19 +66,29 @@ hr {
 /* HEADER *****************/
 header {
 	width: 100%;
-	height: 55px;
+	height:  auto;/*55px;*/
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color: #e6e6e67b;
+	background-color: #FFFFFF;
+	opacity: 0.9;
 	box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
 	z-index: 1;
+}
+
+header.tiny {
+	height: auto;
+	opacity: 0.85;
 }
 
 #logo {
 	width: 110px;
 	float: left;
-	margin: 6.5px 0px 0px 30px;
+	margin: 6px 0px 0px 30px;
+}
+
+#logo.tiny {
+	width: 80px;
 }
 
 #logo:hover {
@@ -88,23 +107,31 @@ header nav {
 
 header nav ul li {
 	float: left;
-	margin-top: -17px;
+	margin-top: -14px;
 	margin-left: 30px;
-	font-size: 40px;
+	margin-bottom: -3px;
+	font-size: 35px;
 	font-family: 'Amatic SC', cursive;
-	color: #eaedee;
-	font-weight: bold;
+	color: #000000;
+	font-weight: bolder;
 	letter-spacing: 0.01em;
 }
 
-header nav ul li a {
-	font-size: 16px;
+header nav ul li.tiny {
+	font-size: 22px;
+	margin-top: -12px;
+	margin-bottom: -3px;
 }
 
 header nav ul li:hover {
 	padding-top: 5px;
 	color: #636C6E;
 }
+
+header nav ul li a {
+	font-size: 16px;
+}
+
 
 /* HOME ****************/
 #home {
@@ -113,6 +140,11 @@ header nav ul li:hover {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+#home hr {
+	color: #FFFFFF;
+	opacity: 0;
 }
 
 #home h1 {
@@ -158,7 +190,7 @@ header nav ul li:hover {
 }
 
 #about hr {
-	background-color: #631B50;
+	background-color: #8B348C;
 }
 
 #about h3 {
@@ -198,7 +230,7 @@ header nav ul li:hover {
 }
 
 #work hr {
-	background-color: #B6F7FF;
+	background-color: #656565; 
 }
 
 #work h3 {
@@ -330,37 +362,52 @@ footer p {
 		height: auto;
 	}
 
+	h3 {
+		padding-top: 15%;
+		margin: 0px; /* Clears distance to the other section*/
+		font-size: 5vw;
+	}
+
 	hr {
-		width: 30%;
+		width: 40%;
 	}
 
 	#logo {
-		width: 10%;
-		margin-top: 5px;
+		width: 70px;
+		margin-top: 7px;
+		margin-left: 10px;
+	}
+
+	#logo.tiny {
+		width: 60px;
+		margin-left: 10px;
+		/*margin-top: 0%;*/
 	}
 
 	header nav {
-		margin-top: 0%;
+		margin-top: 12px;
 	}
 
 	header nav ul li {
-		font-size: 100%;
+		font-size: 140%;
+		margin-top: -20px;
+		letter-spacing: 0.05em;
+	}
+
+	header nav ul li.tiny {
+		font-size: 105%;
+		margin-top: -18px;
 	}
 
 	#home h1 {
-		font-size: 370%;
+		font-size: 9vw; 
 		margin-top: 200px;
 	}
 
 	#home h2 {
-		font-size: 200%;
+		font-size: 7vw;
 	}
 
-	h3 {
-		padding-top: 15%;
-		margin: 0px; /* Clears distance to the other section*/
-		font-size: 200%;
-	}
 
 	#about img {
 		width: 25%;
@@ -369,7 +416,6 @@ footer p {
 	#about h4 {
 		font-size: 170%;
 	}
-
 
 	#about p {
 		width: 80%;
@@ -397,18 +443,32 @@ footer p {
 
 	form input, form textarea {
 		width: 60%;
+		font-size: 110%;
 	}
 
 	.button {
 		width: 62%;
+		height: 35px;
+		font-size: 110%;
+		letter-spacing: 0.1em;
 	}
 }
 
 /* MOBILE **/
 @media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+
 	#logo {
-		width: 50px;
-		margin-left: 30px;
+		width: 19%;
+		margin-top: 5px;
+	}
+
+	#logo.tiny {
+		width: 12%;
+
 	}
 
 	header nav {
@@ -417,17 +477,23 @@ footer p {
 	}
 
 	.fa-bars {
-		font-size: 17px;
+		font-size: 140%;
 		display: inline-block;
 		width: 100%;
 		cursor: pointer;
 		text-align: right;
 		float: right;
-		margin: -26px 30px 0px 0px;
+		margin: -23px 20px 4px 0px;
 	}
 
 	.fa-bars:hover {
 		opacity: 0.5;
+	}
+
+	.fa-bars.tiny {
+		font-size: 100%;
+		margin-top: -20px;
+		margin-bottom: 0px;
 	}
 
 	header nav ul {
@@ -446,28 +512,61 @@ footer p {
 		width: 100%;
 		padding: 5px 0px;
 		margin: 0px;
-		font-size: 11px;
+		font-size: 100%;
 		border-top: 1px solid #707274;
 		float: left;
 	}
 
+	header nav ul li.close {
+		display: none;
+	}
+
+
+	header nav ul li.tiny {
+		width: 100%;
+		padding: 5px 0px;
+		margin: 0px;
+		border-top: 1px solid #707274;
+		float: left;
+		font-size: 80%;
+	}
+
 	header nav ul li:hover {
 		background-color: #FFFFFF;
+		font-size: 115%;
+	}
+
+	header nav ul li:hover.tiny {
+		font-size: 110%;
 	}
 
 	#home h1 {
-		font-size: 60px;
-		margin-top: 200px;
+		font-size: 170%;
+		margin-top: 70%;
 	}
 
 	#home h2 {
-		width: 70%
-		height: auto;
+		width: 70%;
+		font-size: 150%;
+		/*height: auto;*/
+	}
+
+	h3 {
+		font-size: 140%;
+	}
+
+	#about h4 {
+		font-size: 100%;
+	}
+
+	#about p {
+		font-size: 90%;
 	}
 
 	#projects img {
 		width: 70%;
 		height: auto;
+		margin-left: -10px;
 	}
 
 	form input, form textarea {
