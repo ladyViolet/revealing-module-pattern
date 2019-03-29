@@ -16,6 +16,5 @@ var {{namespace}} = {{namespace}} || {};
      
   //functions to be revealed   
   {{revealingFunctions}}
-  {{revealInitial}}
   return that;
 }(){{scopeEnd}};
