@@ -11,10 +11,13 @@ var {{namespace}} = {{namespace}} || {};
   //your components go here..
   ;
 
+  {{initialBegin}}
+     
   //your functions
   {{functions}}  
      
   //functions to be revealed   
   {{revealingFunctions}}
+  {{revealInitial}}
   return that;
 }(){{scopeEnd}};
