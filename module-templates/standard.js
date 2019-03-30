@@ -14,10 +14,10 @@ var {{namespace}} = {{namespace}} || {};
   {{initialBegin}}
      
   //your functions
-  {{functions}}  
+ {{functions}}  
      
   //functions to be revealed   
-  {{revealingFunctions}}
+ {{revealingFunctions}}
   {{revealInitial}}
   return that;
 }(){{scopeEnd}};
