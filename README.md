@@ -8,13 +8,13 @@ In this repository all templates are located that the download-functionality of 
 We provide four different **css-templates** that a user of the Boilerplate-Generator can choose from.  
 
 A **classy-template** with an unobtrusive design of elegant typography and colors that has quite a reputable look for a onepager.  
-![classy](previews/classy.gif)
+![classy](previews/classy.gif)  
 The **happy-colors** template that is a lot more fancy with playful fonts and transition-effects as well as a shiny color palette that just puts you in a good mood.  
-![happy-colors](previews/happy-colors.gif)
+![happy-colors](previews/happy-colors.gif)  
 **Griddy** is a simple grid-template based on gridicoulos, using rows and columns to create a flexible responsive layout for any purpose.  
-![griddy](previews/griddy.gif)
+![griddy](previews/griddy.gif)  
 At least **dark-theme** provides quite the look you might be used to from your good ol' editors that take care of your eyes when coding.  
-![dark-theme](previews/dark-theme.gif)
+![dark-theme](previews/dark-theme.gif)  
 
 ## html-docs
 
