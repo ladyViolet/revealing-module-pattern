@@ -68,7 +68,7 @@ hr {
 /* HEADER *****************/
 header {
 	width: 100%;
-	height:  auto;/*55px;*/
+	height:  auto;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -382,7 +382,6 @@ footer p {
 	#logo.tiny {
 		width: 60px;
 		margin-left: 10px;
-		/*margin-top: 0%;*/
 	}
 
 	header nav {
@@ -549,7 +548,6 @@ footer p {
 	#home h2 {
 		width: 70%;
 		font-size: 150%;
-		/*height: auto;*/
 	}
 
 	h3 {
