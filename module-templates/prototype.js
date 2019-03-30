@@ -13,7 +13,7 @@ function {{modulename}}(/*arguments for constructor*/) {
 }
 
   //your functions
-  {{functions}}
+ {{functions}}
 
   return {{modulename}};
 }(){{scopeEnd}};
